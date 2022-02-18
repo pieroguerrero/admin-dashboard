@@ -8,6 +8,8 @@
     <title>Admin Dashboard</title>
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font/ubuntu/ubuntu-font.css">
+
     <script type="text/javascript" src="script.js" defer></script>
 </head>
 
@@ -15,61 +17,223 @@
     <main class="container">
         <div class="sidebar">
             <div class="logo">
-                <img src="" alt="">
-                <p></p>
+                <img src="img/logo.svg" alt="">
+                <p>Dashboard</p>
             </div>
             <ul class="main-menu">
                 <li>
-                    <input type="image" src="" alt="">
-                    <a href=""></a>
+                    <input type="image" src="img/home.svg" alt="">
+                    <a href="">Home</a>
                 </li>
-                <li><input type="image" src="" alt=""><a href=""></a></li>
-                <li><input type="image" src="" alt=""><a href=""></a></li>
-                <li><input type="image" src="" alt=""><a href=""></a></li>
-                <li><input type="image" src="" alt=""><a href=""></a></li>
-                <li><input type="image" src="" alt=""><a href=""></a></li>
+                <li>
+                    <input type="image" src="img/profile.svg" alt="">
+                    <a href="">Profile</a>
+                </li>
+                <li>
+                    <input type="image" src="img/history.svg" alt="">
+                    <a href="">History</a>
+                </li>
+                <li>
+                    <input type="image" src="img/tasks.svg" alt="">
+                    <a href="">Tasks</a>
+                </li>
+                <li>
+                    <input type="image" src="img/communities.svg" alt="">
+                    <a href="">Communities</a>
+                </li>
             </ul>
             <ul class="sec-menu">
-                <li><input type="image" src="" alt=""><a href=""></a></li>
-                <li><input type="image" src="" alt=""><a href=""></a></li>
-                <li><input type="image" src="" alt=""><a href=""></a></li>
+                <li>
+                    <input type="image" src="img/settings.svg" alt="">
+                    <a href="">Setttings</a>
+                </li>
+                <li>
+                    <input type="image" src="img/support.svg" alt="">
+                    <a href="">Support</a>
+                </li>
+                <li>
+                    <input type="image" src="img/privacy.svg" alt="">
+                    <a href="">Privacy</a>
+                </li>
             </ul>
         </div>
         <div class="header">
             <div class="search">
-                <img src="" alt="">
-                <input type="search" name="" id="">
+                <input id="search-btn" name="search-btn" type="image" src="img/search.svg" alt="">
+                <input type="search" name="search-text" id="search-text">
             </div>
-            <div class="acc-settings">
-                <input id="bell" type="image" src="" alt="">
-                <input id="user-pic1" name="user-pic1" type="image" src="" alt="">
-                <a href=""></a>
+            <div class="logged-acc">
+                <input id="bell" type="image" src="img/notifications.svg" alt="">
+                <input id="user-pic1" name="user-pic1" type="image" alt="" src="img/jiraff-profile.jpg">
+                <a href="">Corina J. Schaufelberger</a>
             </div>
             <div class="acc-greeting">
-                Hi there,
-                <input id="user-pic2" name="user-pic2" type="image" src="" alt="">
-                <p></p>
+                <input id="user-pic2" name="user-pic2" type="image" alt="" src="img/jiraff-profile.jpg">
+                <div>
+                    <p class="greeting">Hi there,</p>
+                    <p class="username">Corini (@cschaufelberger)</p>
+                </div>
             </div>
             <div class="action-buttons">
-                <button id="new" name="new" type="submit"></button>
-                <button id="upload" name="upload" type="submit"></button>
-                <button id="share" name="share" type="submit"></button>
+                <button id="new" name="new" type="submit">New</button>
+                <button id="upload" name="upload" type="submit">Upload</button>
+                <button id="share" name="share" type="submit">Share</button>
             </div>
         </div>
         <div class="content">
             <div class="projects">
-                <p></p>
+                <p>Your Projects</p>
                 <div class="projects-list">
-
+                    <div class="project">
+                        <div class="text">
+                            <p class="title">Super Cool Project</p>
+                            <p class="description">
+                                Adipisicing esse officia, wayfarers aliqua slow-carb taxidermy non sustainable messenger
+                                bag sint hammock. Unicorn +1 in hoodie mlkshk, elit four dollar toast blue bottle.
+                            </p>
+                        </div>
+                        <div class="social-btn">
+                            <input class="star" name="star" type="image" src="img/star.svg" alt="">
+                            <input class="watch" name="watch" type="image" src="img/watch.svg" alt="">
+                            <input class="share" name="share" type="image" src="img/share.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="text">
+                            <p class="title">
+                                Secret Project
+                            </p>
+                            <p class="description">
+                                Pok pok fugiat selvage slow-carb street art pitchfork, succulents id williamsburg
+                                polaroid four loko gentrify. Labore retro mustache tattooed sartorial chillwave deep v
+                                vaporware cornhole culpa.
+                            </p>
+                        </div>
+                        <div class="social-btn">
+                            <input class="star" name="star" type="image" src="img/star.svg" alt="">
+                            <input class="watch" name="watch" type="image" src="img/watch.svg" alt="">
+                            <input class="share" name="share" type="image" src="img/share.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="text">
+                            <p class="title">
+                                Project Area 57
+                            </p>
+                            <p class="description">
+                                Leggings ut poutine iceland small batch. Reprehenderit la croix lomo flexitarian.
+                                Typewriter gochujang neutra celiac, intelligentsia cray tumblr live-edge jean shorts
+                                helvetica minim jianbing.
+                            </p>
+                        </div>
+                        <div class="social-btn">
+                            <input class="star" name="star" type="image" src="img/star.svg" alt="">
+                            <input class="watch" name="watch" type="image" src="img/watch.svg" alt="">
+                            <input class="share" name="share" type="image" src="img/share.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="text">
+                            <p class="title">
+                                Future of the Company project
+                            </p>
+                            <p class="description">
+                                Next level eiusmod leggings, semiotics meggings cillum seitan est man bun unicorn mlkshk
+                                fixie artisan microdosing edison bulb. Vinyl hashtag esse ugh seitan, knausgaard
+                                chartreuse listicle aliquip taiyaki dreamcatcher four dollar toast.
+                            </p>
+                        </div>
+                        <div class="social-btn">
+                            <input class="star" name="star" type="image" src="img/star.svg" alt="">
+                            <input class="watch" name="watch" type="image" src="img/watch.svg" alt="">
+                            <input class="share" name="share" type="image" src="img/share.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="text">
+                            <p class="title">
+                                Long-term project
+                            </p>
+                            <p class="description">
+                                Ennui tacos photo booth in. Mollit pop-up pour-over, eiusmod est +1 officia ad
+                                consectetur gastropub listicle godard marfa mlkshk do.
+                            </p>
+                        </div>
+                        <div class="social-btn">
+                            <input class="star" name="star" type="image" src="img/star.svg" alt="">
+                            <input class="watch" name="watch" type="image" src="img/watch.svg" alt="">
+                            <input class="share" name="share" type="image" src="img/share.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="text">
+                            <p class="title">
+                                New product launch
+                            </p>
+                            <p class="description">
+                                Dolore marfa minim meggings fixie sint put a bird on it. Chartreuse et poke venmo
+                                polaroid crucifix disrupt tempor, distillery messenger bag vape. Gluten-free anim esse,
+                                cred dreamcatcher bushwick yr tousled sed ad minim. Tacos cronut XOXO kickstarter cloud
+                                bread, messenger bag literally retro tote bag chicharrones.
+                            </p>
+                        </div>
+                        <div class="social-btn">
+                            <input class="star" name="star" type="image" src="img/star.svg" alt="">
+                            <input class="watch" name="watch" type="image" src="img/watch.svg" alt="">
+                            <input class="share" name="share" type="image" src="img/share.svg" alt="">
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="announcements">
-                <p></p>
-                <div class="announcements-list"></div>
+                <p>Announcements</p>
+                <ul class="announcements-list">
+                    <li class="announcement">
+                        <p class="title">Site Maintenance</p>
+                        <p class="description">Migas blog ramps, consectetur ex occupy iceland aesthetic...</p>
+                    </li>
+                    <li class="announcement">
+                        <p class="title">New Community created</p>
+                        <p class="description">Cred duis cronut palo santo butcher VHS quis synth literally...</p>
+                    </li>
+                    <li class="announcement">
+                        <p class="title">Update Privacy Policy</p>
+                        <p class="description">Narwhal cold-pressed bespoke, hella tumblr roof party labore...</p>
+                    </li>
+                </ul>
             </div>
             <div class="trending">
-                <p></p>
-                <div class="trending-list"></div>
+                <p>Trending members</p>
+                <div class="trending-list">
+                    <div class="trending-item">
+                        <input type="image" class="user-icon" name="user-icon" src="img/monkey-profile.jpg">
+                        <div class="trending-user">
+                            <a href="">@tegan</a>
+                            <p>Wold Peace Builder</p>
+                        </div>
+                    </div>
+                    <div class="trending-item">
+                        <input type="image" class="user-icon" name="user-icon" src="img/rabbit-profile.jpg">
+                        <div class="trending-user">
+                            <a href="">@piero182</a>
+                            <p>Senior Software Engineer</p>
+                        </div>
+                    </div>
+                    <div class="trending-item">
+                        <input type="image" class="user-icon" name="user-icon" src="img/koala-profile.jpg">
+                        <div class="trending-user">
+                            <a href="">@kendall</a>
+                            <p>Trouble maker</p>
+                        </div>
+                    </div>
+                    <!-- <div class="trending-item">
+                        <input type="image" class="user-icon" name="user-icon" src="img/panda-profile.jpg">
+                        <div class="trending-user">
+                            <a href="">@alex</a>
+                            <p>In silence</p>
+                        </div>
+                    </div> -->
+                </div>
             </div>
         </div>
     </main>
