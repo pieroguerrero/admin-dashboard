@@ -192,9 +192,9 @@ body, html {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 
-    gap: 35px;
+    gap: 20px;
 }
 
 #bell {
