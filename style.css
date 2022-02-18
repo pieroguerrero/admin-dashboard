@@ -59,7 +59,7 @@ body, html {
     grid-area: logo;
 
     font-weight: bold;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
 
     display: flex;
     align-items: center;
@@ -68,7 +68,7 @@ body, html {
 }
 
 .logo img {
-    width: 60px;
+    width: 55px;
     /* padding: 0;
     margin: 0; */
 }
@@ -80,7 +80,7 @@ body, html {
 
 .sidebar .main-menu {
     list-style: none;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: bold;
     margin-left: 12px;
 
@@ -88,7 +88,7 @@ body, html {
 }
 
 .main-menu input[type="image"] {
-    width: 35px;
+    width: 28px;
 }
 
 .main-menu li {
@@ -99,13 +99,13 @@ body, html {
 }
 
 .main-menu li+li {
-    margin-top: 15px;
+    margin-top: 12px;
 }
 
 .sidebar .sec-menu {
     list-style: none;
 
-    font-size: 1.1rem;
+    font-size: 1rem;
     /* font-weight: bold; */
     margin-left: 12px;
 
@@ -124,7 +124,7 @@ body, html {
 }
 
 .sec-menu input[type="image"] {
-    width: 30px;
+    width: 22px;
 }
 
 /* #endregion sidebar */
@@ -223,6 +223,7 @@ body, html {
     gap: 20px;
 
     margin-left: 50px;
+
 }
 
 .acc-greeting .greeting {
@@ -241,6 +242,19 @@ body, html {
     width: auto;
     height: 70px;
     border-radius: 50%;
+
+    /*for the zoom*/
+    transition: transform .2s;
+}
+
+#user-pic2:hover {
+    /*to zoom*/
+
+    -ms-transform: scale(1.9);
+    /* IE 9 */
+    -webkit-transform: scale(1.9);
+    /* Safari 3-8 */
+    transform: scale(1.9);
 }
 
 .header .action-buttons {
@@ -462,6 +476,18 @@ body, html {
     height: 55px;
     width: auto;
     border-radius: 50%;
+
+    /*for the zoom*/
+    transition: transform .2s;
+}
+
+.trending-item .user-icon:hover {
+
+    -ms-transform: scale(1.6);
+    /* IE 9 */
+    -webkit-transform: scale(1.6);
+    /* Safari 3-8 */
+    transform: scale(1.6);
 }
 
 .trending-item .trending-user {
