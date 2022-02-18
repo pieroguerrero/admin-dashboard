@@ -57,7 +57,7 @@ body, html {
     grid-area: logo;
 
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.8rem;
 
     display: flex;
     align-items: center;
@@ -78,7 +78,7 @@ body, html {
 
 .sidebar .main-menu {
     list-style: none;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: bold;
     margin-left: 12px;
 
@@ -103,7 +103,7 @@ body, html {
 .sidebar .sec-menu {
     list-style: none;
 
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     /* font-weight: bold; */
     margin-left: 12px;
 
@@ -161,7 +161,7 @@ body, html {
     -webkit-appearance: none;
     appearance: none;
 
-    font-size: 1rem;
+    font-size: 0.8rem;
     padding-left: 5px;
 
     box-shadow: inset 1px 1px 3px #ccc;
@@ -208,7 +208,7 @@ body, html {
     text-decoration: none;
     color: black;
     font-weight: bold;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 .header .acc-greeting {
@@ -225,13 +225,13 @@ body, html {
 
 .acc-greeting .greeting {
 
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     font-weight: bold;
 
 }
 
 .acc-greeting .username {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-weight: bold;
 }
 
@@ -258,7 +258,7 @@ body, html {
 
     cursor: pointer;
     font-family: inherit;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     font-weight: bold;
     border-width: 0;
 
@@ -305,7 +305,7 @@ body, html {
 }
 
 .projects>p {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: bold;
 }
 
@@ -344,6 +344,12 @@ body, html {
     box-shadow: 2px 2px 4px 1px #ccc;
 }
 
+.projects-list .project:hover {
+    position: relative;
+    top: -2px;
+    left: -2px;
+}
+
 .project .social-btn {
     display: flex;
     justify-content: flex-end;
@@ -353,13 +359,13 @@ body, html {
 }
 
 .project .text .title {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     font-weight: bold;
     margin-bottom: 15px;
 }
 
 .project .text .description {
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: var(--card-fore-color);
 }
 
@@ -372,7 +378,7 @@ body, html {
 }
 
 .announcements>p {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: bold;
 }
 
@@ -395,7 +401,7 @@ body, html {
     flex-direction: column;
     gap: 5px;
 
-    font-size: 0.9rem;
+    font-size: 0.7rem;
 }
 
 .announcement .title {
@@ -426,7 +432,7 @@ body, html {
 }
 
 .trending>p {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: bold;
 }
 
@@ -460,7 +466,7 @@ body, html {
     display: flex;
     flex-direction: column;
     gap: 5px;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
 
 }
 
